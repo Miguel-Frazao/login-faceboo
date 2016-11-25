@@ -1,10 +1,10 @@
 ###############################################################################
-################################### PYTHON 2 ##################################
+##################################  PYTHON 2  #################################
 
 import mechanize
 
 url = 'https://m.facebook.com'
-loggedin_title = 'Facebook' # isto vai servir para confirmarmos que estamos loggedin, vendo o titulo da pagina para onde fomos redirecionados 
+loggedin_title = 'Facebook' # We need this to confirm if login was successful
 username = 'USERNAME'
 password = 'PASSWORD'
 
@@ -27,7 +27,7 @@ else:
 
 
 ###############################################################################
-################################### PYTHON 3 ##################################
+##################################  PYTHON 3  #################################
 
 
 import robobrowser
